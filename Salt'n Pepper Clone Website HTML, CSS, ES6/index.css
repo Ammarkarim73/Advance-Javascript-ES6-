@@ -1,0 +1,798 @@
+body {
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/saltnpepper-village-home.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+
+.flex{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* align-content: center; */
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main {
+    display: flex;
+    padding-bottom: 10px;
+    background-color: #222222;
+    border-bottom: 1px solid #ED1C24;
+    z-index: 2;
+}
+
+#logo {
+    position: relative;
+    height: 45px;
+    width: 120px;
+    background-color: #222222;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 27px;
+    margin-top: 10px;
+    z-index: 2;
+}
+
+#linkin {
+    position: absolute;
+    width: 60%;
+    height: 0%;
+    margin: 40px 200px 20px 200px;
+    z-index: 2;
+}
+
+.link {
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #222222;
+    letter-spacing: 1px;
+    color: rgba(245, 245, 245, 0.973);
+    text-decoration: none;
+    padding-left: 30px;
+    font-family: Georgia;
+    z-index: 2;
+    transition: 500ms;
+}
+
+a.link:hover {
+    color: #ED1C24;
+    transition: 500ms;
+    font-size: 14.5px;
+    font-weight: 600;
+}
+
+a#link2:visited {
+    color: #ED1C24;
+}
+
+#button {
+    font-family: Georgia;
+    font-size: 14px;
+    position: absolute;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px 50px 8px 50px;
+    margin-left: 81%;
+    margin-bottom: 3px;
+    margin-top: 20px;
+    background-color: #ED1C24;
+    border-radius: 5px;
+    border: 0px;
+    z-index: 2;
+}
+
+button#button:hover{
+    transition-duration: 0.2s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    transform: translateY(-9px);
+    cursor: pointer;
+}
+
+
+
+#img {
+    display: flex;
+    padding: 50px 0px 50px 0px;
+    background-color: #222222;
+    z-index: 2;
+    border-bottom: 1px solid #ED1C24;
+}
+
+button#button1:hover {
+    cursor: pointer;
+}
+
+button#button2:hover {
+    cursor: pointer;
+}
+
+#button1 {
+    position: absolute;
+    top: 270px;
+    left: 30px;
+    height: 50px;
+    width: 50px;
+    z-index: 2;
+    background-color: #97979773;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+#button2 {
+    position: absolute;
+    top: 270px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    z-index: 2;
+    background-color: #22222258;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.img1 {
+    width: 100%;
+    height: 350px;
+    z-index: 2;
+    background-color: #222222;
+}
+
+#shadow {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-bottom: 300px;
+    padding-top: 20px;
+    z-index: 3;
+    border-bottom: 2px solid #ED1C24;
+}
+
+#heading2 {
+    font-size: 110px;
+    letter-spacing: 5px;
+    font-family: josefin Sans, Sans-serif;
+    font-weight: 100;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+
+}
+
+#heading3 {
+    font-size: 40px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 0px;
+
+}
+
+#img2 {
+    width: 270px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -70px;
+
+}
+
+#paragraph {
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 11px;
+    color: white;
+    text-transform: uppercase;
+    font-family: josefin Sans, sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+#paragraph1 {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.759);
+    font-family: josefin Sans, sans-serif;
+    text-align: center;
+}
+
+a#box-0 {
+    margin: auto 10px;
+    padding: 55px 30px 55px 30px;
+    border-radius: 4px 4px 4px 4px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+a#box-1 {
+    padding: 55px 30px 55px 40px;
+    margin: auto 10px;
+    border-radius: 4px 4px 4px 4px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+a#box-2 {
+    margin: auto 10px; 
+    padding: 55px 30px 55px 30px;
+    border-radius: 4px 4px 4px 4px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.box1 {
+    width: 230px;
+    height: 80px;
+}
+
+img.box1:hover {
+    transition-duration: 0.5s;
+    transition-property: transform;
+    transform: scale(1.2, 1.2);
+}
+
+#main2 {
+    padding-top: 20px;
+    background-color: #222222;
+    border-bottom: 2px solid #ED1C24;
+}
+
+#franchiseimg {
+    display: block;
+    width: 265px;
+    height: 87px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#franchiseimg2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    margin-top: 37px;
+}
+
+#heading4 {
+    text-align: center;
+    color: #ED1C24;
+    font-weight: 500;
+    font-family: 'philosopher', sans-serif;
+    font-size: 50px;
+    margin-top: -6px;
+}
+
+#paragraph2 {
+    color: white;
+    font-family: 'dosis', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: large;
+    padding-bottom: 50px;
+}
+
+#franchiseflex {
+    display: flex;
+    margin-top: -30px;
+    padding-bottom: 50px;
+}
+
+#franchiseflex1 {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+#franchiseflex2 {
+    display: flex;
+    margin-top: -30px;
+    padding-bottom: 50px;
+}
+
+.logo3 {
+    display: block;
+    height: 50px;
+    padding-left: 45%;
+    padding-right: 41%;
+    padding-top: 50px;
+    background-color: #00000083;
+}
+.logo4 {
+    display: block;
+    height: 70px;
+    padding-left: 40%;
+    padding-right: 41%;
+    padding-top: 10px;
+}
+
+img.logo3:hover {
+    height: 53px;
+    transition: 600ms;
+}
+
+img.logo4:hover {
+    width: 83px;
+    height: 83px;
+    transition: 600ms;
+}
+
+#imgbg1{
+    background-image: url(./images/Salt-n-Pepper-Restaurant-Islamabad-Franchise.jpg) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    width: 350px;
+    height: 250px;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-left: 8%;
+}
+
+.franchiseheading {
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: -14px;
+    background-color: #00000083;
+}
+
+.para2 {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.para {
+    color: white;
+    text-align: center;
+    background-color: #00000083;
+    font-size: 14px;
+    padding-top: 18px;
+    padding-bottom: 73px;
+}
+
+#imgbg2 {
+    background-image: url(./images/Salt-n-Pepper-Restaurant-Faisalabad-Franchise.jpg) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    width: 350px;
+    height: 250px;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-left: 1%;
+}
+
+#imgbg3 {
+    background-image: url(./images/Salt-n-Pepper-Restaurant-Bahawalpur-Franchise.jpg) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    width: 350px;
+    height: 250px;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-left: 1%;
+}
+
+#footer {
+    background-color: #222222;
+    display: flex;
+}
+
+#footerimg {
+    margin: 70px 0px 0px 20px;
+    float: left;
+}
+
+#footerpara {
+    margin-top: -15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-align: justify;
+    background-color: #222222;
+}
+
+#parabox {
+    width: 320px;
+    height: 250px;
+    float: left;
+    background-color: #222222;
+}
+
+#parabox1 {
+    margin-top: -65px;
+    padding-bottom: 137px;
+    padding-left: 20px;
+    width: 230px;
+    height: 178px;
+    float: left;
+    background-color: #222222;
+}
+
+#parabox2 {
+    margin-top: -50px;
+    padding-left: 50px;
+    padding-bottom: 137px;
+    width: 250px;
+    height: 163px;
+    float: left;
+    background-color: #222222;
+}
+
+#parabox3 {
+    margin-top: -50px;
+    padding-left: 130px;
+    padding-right: 159px;
+    width: 190px;
+    height: 300px;
+    float: left;
+    background-color: #222222;
+}
+
+#fleximg1 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+img.fit:hover {
+    width: 45px;
+    height: 45px;
+}
+
+#playstore {
+    margin-bottom: -12px;
+    width: 130px;
+    height: 60px;
+}
+
+#appstore {
+    margin-left: 6px;
+    width: 116px;
+    height: 40px;
+}
+
+#quicklinks {
+    background-color: #222222;
+    list-style-image: url(./images/Capture.JPG);
+    list-style-position: inside;
+}
+
+.q {
+    margin-left: -40px;
+}
+
+#contactus {
+    list-style-position: inside;
+}
+
+#telephone {
+    list-style-image: url(./images/Capture\ contact\ us.JPG);
+    margin-left: -40px;
+}
+
+#fax {
+    list-style-image: url(./images/Capture-telephone.JPG);
+    margin-left: -45px;
+}
+
+.express {
+    list-style-image: url(./images/Capture\ contact\ us\ express.JPG);
+    margin-left: -45px;
+}
+
+#email {
+    list-style-image: url(./images/Capture\ contact\ us\ mail.JPG);
+    margin-left: -45px;
+}
+
+#location {
+    list-style-image: url(./images/Capture\ contact\ us\ location.JPG);
+    margin-left: -45px;
+}
+
+
+.quicklink {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #222222;
+    letter-spacing: 1px;
+    color: rgba(245, 245, 245, 0.973);
+    text-decoration: none;
+    font-family: Georgia;
+    z-index: 2;
+}
+
+.quick {
+    color: white;
+    margin-bottom: 0%;
+}
+
+.quick1 {
+    color: white;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+a.quicklink:hover {
+    color: #ED1C24;
+    transition: 500ms;
+    font-size: 14.5px;
+    font-weight: 600;
+}
+
+.quicklink1 {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #222222;
+    color: rgba(245, 245, 245, 0.973);
+    text-decoration: none;
+    transition: 500ms;
+}
+
+a.quicklink1:hover {
+    color: #ED1C24;
+    transition: 500ms;
+}
+.quicklink2 {
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 600;
+    background-color: #222222;
+    color: rgba(245, 245, 245, 0.973);
+    text-decoration: none;
+    transition: 500ms;
+}
+
+a.quicklink2:hover {
+    color: #ED1C24;
+    transition: 500ms;
+}
+
+.quicklink3 {
+    font-size: 12px;
+    margin-right: 10px;
+    font-weight: 600;
+    background-color: #222222;
+    color: rgba(245, 245, 245, 0.973);
+    text-decoration: none;
+    transition: 500ms;
+}
+
+a.quicklink3:hover {
+    color: #ED1C24;
+    transition: 500ms;
+}
+
+.hr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    width: 98%;
+    height: 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#heading5 {
+    text-align: center;
+    color: #ED1C24;
+    font-weight: 500;
+    font-family: 'philosopher', sans-serif;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+#heading6 {
+    text-align: center;
+    color: #ED1C24;
+    font-weight: 500;
+    font-family: 'philosopher', sans-serif;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+#soon {
+    color: white;
+    text-align: center;
+    font-family: 'dosis', sans-serif;
+    font-size: 25px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.smallhr {
+    border-bottom: 2px solid white;
+    width: 16%;
+    height: 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
+    margin-bottom: 70px;
+}
+
+.smallhr1 {
+    border-bottom: 2px solid #ED1C24;
+    width: 70%;
+    height: 0%;
+    display: block;
+    margin-left: -4px;
+}
+
+#imgbg4 {
+    background-image: url(./images/Salt-n-Pepper-Express-Motorway-Bhera.jpg) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    width: 350px;
+    height: 300px;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-left: 8%;
+}
+
+#imgbg5 {
+    background-image: url(./images/Salt-n-Pepper-Express-Packages-Mall.jpg) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    width: 350px;
+    height: 300px;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-left: 1%;
+}
+
+#imgbg6 {
+    background-image: url(./images/Salt-n-Pepper-Express-Emporium-Mall.jpg) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    width: 350px;
+    height: 300px;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-left: 1%;
+}
+
+#imgbg7 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    border: 3px solid #ED1C24;
+    border-radius: 5px;
+    margin-left: 4%;
+}
+
+#imgbg8 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    border: 3px solid #ED1C24;
+    border-radius: 5px;
+    margin-left: 1%;
+}
+
+#imgbg9 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    border: 3px solid #ED1C24;
+    border-radius: 5px;
+    margin-left: 1%;
+}
+
+#imgbg10 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 700px;
+    height: 150px;
+    border: 3px solid #ED1C24;
+    border-radius: 5px;
+    margin-left: 4%;
+}
+
+#imgbg11 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 700px;
+    height: 150px;
+    border: 3px solid #ED1C24;
+    border-radius: 5px;
+    margin-left: 1%;
+    margin-right: 4%;
+}
+
+#imgbg12 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    border: 3px solid #ED1C24;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+img#footerimg:hover {
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#logo:hover {
+    width: 130px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.para1 {
+    color: white;
+    text-align: center;
+    background-color: #00000083;
+    font-size: 14px;
+    padding-top: 18px;
+    padding-bottom: 96px;
+}
+
+#end {
+    width: 100%;
+    background-color: #222222;
+    text-align: center;
+    display: flex;
+}
+
+#box {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    width: 50%;
+    background-color: #222222;
+    text-align: right;
+}
+
+#box1 {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+    width: 50%;
+    background-color: #222222;
+    text-align: left;
+}
