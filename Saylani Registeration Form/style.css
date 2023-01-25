@@ -1,0 +1,268 @@
+#head {
+    
+    background-image: url(./photo-1541462608143-67571c6738dd.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80vw;
+    height: 240px;
+    margin-top: 0px;
+    margin-right: 10vw;
+    margin-bottom: 0px;
+    margin-left: 10vw;
+    text-align: center;
+    align-items: center;
+    line-height: 22px;
+    padding-top: 30px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#logo{
+    width: 250px;
+    margin: auto;
+}
+
+#buttons {
+    margin: auto;
+    width: 80vw;
+    text-align: center;
+}
+
+
+.btn{
+    padding: 10px 20px 10px 20px;
+    color: rgb(13, 109, 183);
+    outline: none;
+    border-bottom: none;
+    border-top: 1px solid darkgray;
+    border-left: 1px solid darkgray;
+    border-right: 1px solid darkgray;
+    cursor: pointer;
+}
+
+hr{
+    margin: 0px 0px 0px 0px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.flexcol{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.submit{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+select {
+    margin-top: 50px;
+    width: 400px;
+    height: 50px;
+    border: 1px solid #8dc63f;
+    border-radius: 1%;
+    cursor: pointer;
+}
+
+#n {
+    color: #8dc63f;
+    background-color: #fff;
+}
+
+input{
+    margin: 50px auto 0px auto;
+    width: 392px;
+    height: 50px;
+    border: 1px solid #8dc63f;
+}
+
+input:hover{
+
+    border: 1px solid rgba(0, 0, 255, 0.781);
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 255, 0.781);
+    transition: 0.2s linear;
+}
+
+#qualification{
+    width: 1000px;
+}
+
+#address{
+    width: 1000px;
+}
+
+.flexaround{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    width: 1000px;
+}
+
+.picture{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#label{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 95px;
+    border: 1px dotted grey; 
+    border-radius: 15%;
+    background-color: #FAFAFA;
+    margin: auto;
+    background-size: 100%;
+    
+}
+
+#label:hover{
+    border: 1px solid blue;
+    transition: 1s linear;
+    cursor: pointer;
+}
+
+.flexabc{
+    display: flex;
+    margin: 50px 455px 10px 50px;
+}
+
+li{
+    list-style: none;
+    font-size: 11px;
+}
+
+ul{
+    padding-inline-start: 0px;
+}
+
+
+#submit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 50px auto 0px auto;
+    width: 80vw;
+    background-color: rgba(0, 0, 255, 0.794);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: medium;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+#submit:hover{
+    background-color: blue;
+    transition: 1s linear;
+}
+
+.hidden{
+    display: none;
+}
+
+.cardFlex{
+    display: flex;
+    margin-top: 100px;
+}
+
+#frontCard{
+    width: 200px;
+    height: 300px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    color: blue;
+}
+
+
+#backCard{
+    width: 200px;
+    height: 300px;
+    border: 8px solid blue;
+    border-radius: 10px;
+    text-align: justify;
+    margin: auto;
+    color: blue;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+#cardHeader{
+    border-bottom: 4px solid blue;
+}
+
+#pic{
+    margin: auto;
+    border: 1px dotted grey;
+    padding: 40px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cardName{
+    color: black;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+#idNumber{
+    padding-bottom: 0px;
+    border-top: 1px solid blue;
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 160px;
+    margin: auto;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+#courseName{
+    background-color: blue;
+    color: #fff;
+    margin-top: -12px;
+    padding-top: 0%;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#qrCode{
+    width: 80px;
+    height: 80px;
+}
+
+#sign{
+    margin-block-start: 4em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    color: black;
+}
+
+p{
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+}
