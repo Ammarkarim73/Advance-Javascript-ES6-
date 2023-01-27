@@ -1,5 +1,5 @@
 var x;
-let apiKey = "03387be65f44567bff372c9082853948";
+let apiKey = "Your API KEY";
 var city;
 
 var image; //.png
@@ -47,4 +47,4 @@ function setWeatherInfo(){
 }
 
 
-  // https://api.openweathermap.org/data/2.5/weather?q={city name}&appid=03387be65f44567bff372c9082853948
+  // https://api.openweathermap.org/data/2.5/weather?q={city name}&appid=Your API KEY
